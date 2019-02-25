@@ -1,0 +1,14 @@
+@import '../../styles/common.scss';
+
+.title{
+  font-size: px2rem(36);
+}
+.footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: px2rem(88);
+  text-align: center;
+  background: #fff;
+}

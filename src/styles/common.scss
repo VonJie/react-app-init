@@ -1,0 +1,9 @@
+@function px2rem ($value) {
+  $para: 100;
+  @return ($value / $para) + rem;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
