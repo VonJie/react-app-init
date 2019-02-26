@@ -13,7 +13,7 @@ class Index extends Component{
   }
   render(){
     return (
-      <div>
+      <div className='container'>
         <input type="text"/>
         {this.state.arys.map((item, index) => {
           return <div className={styles.title} key={index}>首页</div>

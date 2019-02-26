@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import styles from './styles/App.module.scss';
 
@@ -45,10 +45,11 @@ class App extends Component{
             <Button>测试</Button>
 
             <hr />
-
-            <Route exact path="/" component={Home} />
-            <Route path="/profile" component={Profile} />
-            <Route path="/topics" component={Topics} />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/profile" component={Profile} />
+              <Route path="/topics" component={Topics} />
+            </Switch>
           </div>
         </Router>
       </div>
