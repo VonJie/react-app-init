@@ -1,33 +1,33 @@
-##### 一、创建应用
+### 一、创建应用
 ```
 create-react-app myApp
 ```
 
-##### 二、使用sass
+### 二、使用sass
 ```
 yarn add node-sass
 ```
 
-##### 三、className.hash
+### 三、className.hash
 ```
 import styles from './index.module.scss'
 ```
 
-##### 四、路由
+### 四、路由
 ```
 yarn add react-router-dom
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 ```
 
-##### 五、es6+ polyfill
+### 五、es6+ polyfill
 ```
 yarn add react-app-polyfill
 
 import 'react-app-polyfill/ie9';
 ```
 
-##### 六、antd-mobile
+### 六、antd-mobile
 ```
 yarn add antd-mobile
 ```
