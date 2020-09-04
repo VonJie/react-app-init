@@ -9,7 +9,7 @@
     "babel-preset-react": "^6.24.1",
     "customize-cra": "^0.2.11",
     "less-loader": "^4.1.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "postcss-pxtorem": "^4.0.1",
     "react": "^16.8.3",
     "react-app-polyfill": "^0.2.1",
